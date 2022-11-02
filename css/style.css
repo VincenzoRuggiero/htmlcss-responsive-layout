@@ -92,6 +92,10 @@ header {
 }
 
 /* ! Benefits */
+.benefits-title {
+  text-align: center;
+}
+
 .benefits-card {
   width: 100%;
   height: 250px;
@@ -118,6 +122,7 @@ footer {
 
 .footer {
   color: white;
+  padding: 1.5rem;
   text-align: center;
 }
 
@@ -154,5 +159,9 @@ footer {
     width: calc((100% / 2) - 10px);
     margin: 0 5px 16px;
     text-align: left;
+  }
+
+  .about {
+    display: flex;
   }
 }
