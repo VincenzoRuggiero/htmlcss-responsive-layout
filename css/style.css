@@ -20,12 +20,13 @@
 }
 
 .container {
-  width: 80%;
+  width: 90%;
   margin: 0 auto;
 }
 
 section {
   margin: 2rem 0;
+  padding: 1rem;
 }
 
 .card {
@@ -75,4 +76,15 @@ header {
 .testimonials .card {
   background-color: #9792e4;
   color: white;
+}
+
+/* ! Benefits */
+.benefits .card {
+  background-color: white;
+  text-align: left;
+}
+
+.benefits .card > h1,
+h2 {
+  color: #9792e4;
 }
