@@ -88,3 +88,18 @@ header {
 h2 {
   color: #9792e4;
 }
+
+/* ! Call To Action */
+.CallToAction {
+  text-align: center;
+}
+
+/* ! Footer */
+footer {
+  background-color: #333333;
+}
+
+.footer {
+  color: white;
+  text-align: center;
+}
