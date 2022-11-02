@@ -92,7 +92,11 @@ header {
 }
 
 /* ! Benefits */
-.benefits .card {
+.benefits-card {
+  width: 100%;
+  height: 250px;
+  padding: 1rem;
+  margin-bottom: 1.5rem;
   background-color: white;
   text-align: left;
 }
@@ -133,6 +137,22 @@ footer {
 
   .testimonials-card {
     display: flex;
+    text-align: left;
+  }
+
+  .benefits {
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+
+  .benefits-title {
+    width: 100%;
+    text-align: center;
+  }
+
+  .benefits-card {
+    width: calc((100% / 2) - 10px);
+    margin: 0 5px 16px;
     text-align: left;
   }
 }
