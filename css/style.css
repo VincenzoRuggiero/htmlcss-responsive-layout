@@ -66,3 +66,13 @@ header {
 .planning .card {
   background-color: white;
 }
+
+/* ! Testimonials */
+.testimonials {
+  text-align: center;
+}
+
+.testimonials .card {
+  background-color: #9792e4;
+  color: white;
+}
