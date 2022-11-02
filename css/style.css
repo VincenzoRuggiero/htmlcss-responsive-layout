@@ -11,6 +11,10 @@
   display: flex;
 }
 
+.flex-column {
+  flex-direction: column;
+}
+
 .flex-wrap {
   flex-wrap: wrap;
 }
@@ -22,6 +26,14 @@
 
 section {
   margin: 2rem 0;
+}
+
+.card {
+  width: 100%;
+  height: 250px;
+  padding: 1rem;
+  margin-bottom: 1.5rem;
+  text-align: center;
 }
 
 /* ! Header */
@@ -37,15 +49,20 @@ header {
 }
 
 /* ! Cards */
-.card {
-  width: 100%;
-  height: 250px;
-  padding: 1rem;
+.cards .card {
   background-color: #b5ddff;
-  margin-bottom: 1.5rem;
 }
 
 .card:first-child {
   width: 100%;
   height: 500px;
+}
+
+/* ! Planning */
+.purple {
+  background-color: #9792e4;
+}
+
+.planning .card {
+  background-color: white;
 }
