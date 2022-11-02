@@ -213,4 +213,8 @@ footer {
     width: 50%;
     margin-bottom: 0;
   }
+
+  .benefits-card {
+    width: calc((100% / 3) - 10px);
+  }
 }
