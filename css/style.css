@@ -110,6 +110,11 @@ h2 {
   color: #9792e4;
 }
 
+/* ! About */
+.about-us p {
+  margin-bottom: 2rem;
+}
+
 /* ! Call To Action */
 .CallToAction {
   text-align: center;
@@ -124,6 +129,10 @@ footer {
   color: white;
   padding: 1.5rem;
   text-align: center;
+}
+
+.footer p:first-of-type {
+  margin-bottom: 2rem;
 }
 
 @media screen and (min-width: 768px) {
