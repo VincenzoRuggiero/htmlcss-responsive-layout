@@ -29,7 +29,6 @@ body {
 }
 
 section {
-  margin: 2rem 0;
   padding: 1rem;
 }
 
@@ -191,6 +190,30 @@ h2 {
 /* ! Call To Action */
 .CallToAction {
   text-align: center;
+}
+
+.cta-title,
+.cta-start,
+.content,
+.copyright {
+  color: white;
+}
+
+.CallToAction h1 {
+  font-size: 4rem;
+  color: #fdc15f;
+}
+
+.CallToAction .cta-start {
+  text-transform: uppercase;
+  font-size: 0.7rem;
+}
+
+.cta-start,
+.cta-title,
+.content,
+.white-btn {
+  margin-bottom: 1rem;
 }
 
 /* ! Footer */
