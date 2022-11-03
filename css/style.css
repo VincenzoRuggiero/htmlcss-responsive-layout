@@ -37,11 +37,27 @@ section {
   background-color: #9792e4;
 }
 
+picture {
+  width: 50px;
+  height: 50px;
+}
+
+picture img {
+  width: 50%;
+  height: 50%;
+  border-radius: 50%;
+}
+
 button {
   background-color: white;
   padding: 10px 15px;
   color: #000;
   border-radius: 5px;
+}
+
+.violet-btn {
+  background-color: #9792e4;
+  color: white;
 }
 
 /* ! Header */
@@ -166,8 +182,10 @@ h2 {
 }
 
 /* ! About */
+
 .about-us p {
   margin-bottom: 2rem;
+  padding-right: 1.5rem;
 }
 
 /* ! Call To Action */
@@ -235,11 +253,16 @@ footer {
   }
 
   .about-us {
-    width: 77%;
+    width: 70%;
   }
 
   .about-us-pic {
-    width: 23%;
+    width: 30%;
+  }
+
+  picture img {
+    width: 70%;
+    height: 50%;
   }
 }
 
@@ -292,5 +315,10 @@ footer {
 
   .benefits-card {
     width: calc((100% / 3) - 3rem);
+  }
+
+  picture img {
+    width: 70%;
+    height: 60%;
   }
 }
