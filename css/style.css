@@ -117,13 +117,14 @@ a .fa-bars {
 }
 
 .col img {
-  width: 100%;
+  max-width: 100%;
 }
 
 .col:last-child {
   background-color: white;
   border-radius: 20px;
-  padding: 3rem;
+  padding: 1rem;
+  text-align: center;
 }
 
 /* ! Testimonials */
@@ -141,8 +142,8 @@ a .fa-bars {
 }
 
 .testimonial .pic {
-  max-width: 150px;
-  max-height: 150px;
+  max-width: min(30%);
+  min-height: min(50%);
 }
 
 .testimonial .pic img {
@@ -342,8 +343,11 @@ footer {
     width: 50%;
   }
 
-  .col img {
-    width: 100%;
+  .col:last-child {
+    align-self: flex-end;
+  }
+  .col:last-child img {
+    max-width: 250px;
   }
 
   .testimonial {
