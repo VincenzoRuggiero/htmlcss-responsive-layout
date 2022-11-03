@@ -112,8 +112,18 @@ a .fa-bars {
 }
 
 /* ! Planning */
-.planning img {
+.col h2 {
+  color: white;
+}
+
+.col img {
   width: 100%;
+}
+
+.col:last-child {
+  background-color: white;
+  border-radius: 20px;
+  padding: 3rem;
 }
 
 /* ! Testimonials */
@@ -121,30 +131,41 @@ a .fa-bars {
   text-align: center;
 }
 
-.testimonials-card {
+.testimonial {
   width: 100%;
   background-color: #9792e4;
   color: white;
   margin-bottom: 1rem;
+  border-radius: 20px;
+  align-items: center;
 }
 
-.testimonials-card div {
-  width: 150px;
-  height: 150px;
-  object-fit: cover;
+.testimonial .pic {
+  max-width: 150px;
+  max-height: 150px;
 }
 
-.testimonials-card img {
+.testimonial .pic img {
   width: 100%;
   height: 100%;
   border-radius: 50%;
+  object-fit: cover;
 }
 
-.testimonials-card p {
-  padding: 1rem;
+.testimonial p {
+  font-size: 1.2rem;
+  padding: 0.5rem;
+}
+
+.testimonial .name {
+  text-transform: uppercase;
 }
 
 /* ! Benefits */
+.benefits {
+  justify-content: center;
+}
+
 .benefits-title {
   text-align: center;
   margin-bottom: 1rem;
@@ -250,11 +271,6 @@ footer {
     width: calc((100% / 3) * 2 - 2rem);
   }
 
-  .testimonials-card {
-    display: flex;
-    text-align: left;
-  }
-
   .benefits {
     flex-direction: row;
     flex-wrap: wrap;
@@ -318,30 +334,29 @@ footer {
   }
 
   .planning {
+    flex-direction: row;
     flex-wrap: wrap;
-    align-items: flex-end;
   }
 
-  .plan-card,
-  .white-card {
+  .col {
     width: 50%;
-    padding: 1rem;
   }
 
-  .white-card {
-    background-color: white;
-  }
-
-  .white-card img {
+  .col img {
     width: 100%;
+  }
+
+  .testimonial {
+    text-align: left;
+    flex-direction: row;
+    align-items: center;
+  }
+
+  .testimonial .pic {
+    margin: 2rem;
   }
 
   .benefits-card {
     width: calc((100% / 3) - 3rem);
-  }
-
-  picture img {
-    width: 70%;
-    height: 60%;
   }
 }
