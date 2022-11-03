@@ -149,11 +149,12 @@ footer {
   }
 
   .cards .site-card {
-    width: calc(100% / 3);
+    width: calc((100% / 3) - 2rem);
+    margin: 1rem;
   }
 
   .site-card:first-child {
-    width: calc((100% / 3) * 2);
+    width: calc((100% / 3) * 2 - 2rem);
   }
 
   .testimonials-card {
@@ -179,6 +180,14 @@ footer {
 
   .about {
     display: flex;
+  }
+
+  .about-us {
+    width: 77%;
+  }
+
+  .about-us-pic {
+    width: 23%;
   }
 }
 
@@ -215,6 +224,6 @@ footer {
   }
 
   .benefits-card {
-    width: calc((100% / 3) - 10px);
+    width: calc((100% / 3) - 3rem);
   }
 }
